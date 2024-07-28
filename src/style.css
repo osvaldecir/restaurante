@@ -12,3 +12,25 @@
 body {
     background-color: #fff9ea;
 }
+
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcb45;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0 ,0.1);
+    cursor: pointer;
+}
+
+.btn-default:hover {
+    background-color: #f8d477;
+}
+
+.nav-item.active a {
+    color: #1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
